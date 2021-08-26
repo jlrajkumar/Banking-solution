@@ -48,7 +48,7 @@ describe("withdraw",()=>{
 
         expect( withdraw(1001, 2000)).toBe(balance -= 2000);
     });
-    it("It should show alert if the withdraw is more than balance", ()=>{
+    it("It should show alert/error if the withdraw is more than balance", ()=>{
 
         expect( withdraw(1001, 9000)).toThrow('Not Enough Funds');
     });
