@@ -5,10 +5,10 @@ accs = [];
 
 while (true){
 		output = main()
-		=console.log("Output:" + str(output));
+		=console.log("output:" + str(output));
 }
 function main (){
-   var validCommands = ['CREATE','DEPOSIT','WITHDRAW','BALANCE','TRANSFER', 'EXIT'];
+   var validCommands = ['git remote add origin https://github.com/jlrajkumar/Banking-solution.gitCREATE','DEPOSIT','WITHDRAW','BALANCE','TRANSFER', 'EXIT'];
     var userInput   = prompt("Input: ");
 
     if(userInput != null){
